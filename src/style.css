@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    color: black;
+    padding: 10px 0px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.offer-div{
+    margin-top: -80px;
+    padding-left: 10px
+}
+.offer-div2{
+    margin-top: -80px;
+    padding-left: 170px
+}
+
+.product{
+    height: 120px;
+    width: 100px;
+}
+
+.xbox{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(images/20.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.xbox-game{
+    margin-top: 300px;
+    padding: 0px;
+}
+
+.footer{
+    background-color: #2D2A25;
+}
+
+/* Shop page css */
+
+.shop{
+    background-color: #F8F8F8;
+}
+
+.buy-div{
+    background-color: #F5F7FA;
+}
+
+
+@media(min-width:768px){
+    .offer-div{
+        margin-top: -90px;
+        padding-left: 20px;
+    }
+    .offer-div2{
+        margin-top: -90px;
+        padding-left: 200px;
+    }
+}
+
+@media(min-width:992px){
+    .offer-div{
+        margin-top: -110px;
+        padding-left: 20px;
+    }
+    .offer-div2{
+        margin-top: -110px;
+        padding-left: 300px;
+    }
+}
+
+@media(min-width:1200px){
+    .offer-div{
+        margin-top: -110px;
+        padding-left: 20px;
+    }
+    .offer-div2{
+        margin-top: -110px;
+        padding-left: 390px;
+    }
+    .xbox{
+        height: 400px;
+    }
+}
